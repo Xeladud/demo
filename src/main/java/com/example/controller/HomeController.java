@@ -10,4 +10,9 @@ public class HomeController {
     public @ResponseBody String test() {
         return "ok";
     }
+
+    @GetMapping
+    public @ResponseBody String test2() {
+        return "ok2";
+    }
 }
